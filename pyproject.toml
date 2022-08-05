@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "flow-helpers"
+version = "0.1.0"
+description = ""
+authors = ["joshliu3 <jliu@theparkingspot.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+botocore = "^1.27.6"
+pandas = "^1.4.2"
+flatdict = "^4.0.1"
+SQLAlchemy = "^1.4.37"
+pysftp = "^0.2.9"
+office365 = "^0.3.15"
+google-api-python-client = "^2.50.0"
+httplib2 = "^0.20.4"
+pendulum = "^2.1.2"
+boto3 = "^1.24.6"
+uuid = "^1.30"
+google = "^3.0.0"
+facebook-business = "^13.0.0"
+cryptography = "^37.0.2"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
